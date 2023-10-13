@@ -1,7 +1,7 @@
-# Ref:https://atcoder.jp/contests/abc322/tasks/abc322_a
+# Ref: https://atcoder.jp/contests/abc322/tasks/abc322_a
 
-N: int = int(input().strip())
-S: str = input().strip()
+N: int = int(input())
+S: str = input()
 
 for i in range(N - 2):
     if S[i] == "A":
